@@ -1,3 +1,11 @@
 [build]
   publish = "."
-  command = ""
+  command = "echo 'static site'"
+
+[build.environment]
+  NETLIFY_NEXT_PLUGIN_SKIP = "true"
+  NEXT_IGNORE_BUILDING_MESSAGES = "true"
+
+[[plugins]]
+  package = "@netlify/plugin-nextjs"
+  enabled = false
