@@ -99,6 +99,34 @@
     </div>
   </footer>
 
+  <!-- Category panel (mobile only) -->
+  <div class="cat-panel" id="cat-panel" aria-hidden="true">
+    <a href="makeup.html" class="cat-panel-item" data-i18n="nav.makeup">彩妆</a>
+    <a href="skincare.html" class="cat-panel-item" data-i18n="nav.skincare">护肤</a>
+    <a href="haircare.html" class="cat-panel-item" data-i18n="nav.haircare">护发</a>
+  </div>
+  <div class="cat-panel-backdrop" data-cat-backdrop></div>
+
+  <!-- Bottom navigation (mobile only) -->
+  <nav class="bottom-nav" aria-label="移动端导航">
+    <a href="index.html" class="bottom-nav-item">
+      <svg class="bottom-nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 9.5L12 3l9 6.5V20a1 1 0 01-1 1H4a1 1 0 01-1-1z"/><path d="M9 21V13h6v8"/></svg>
+      <span data-i18n="nav.home">首页</span>
+    </a>
+    <button class="bottom-nav-item" type="button" data-cat-toggle aria-expanded="false" aria-controls="cat-panel">
+      <svg class="bottom-nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="3" width="8" height="8" rx="1"/><rect x="13" y="3" width="8" height="8" rx="1"/><rect x="3" y="13" width="8" height="8" rx="1"/><rect x="13" y="13" width="8" height="8" rx="1"/></svg>
+      <span>分类</span>
+    </button>
+    <a href="brands.html" class="bottom-nav-item">
+      <svg class="bottom-nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20.59 13.41l-7.17 7.17a2 2 0 01-2.83 0L2 12V2h10l8.59 8.59a2 2 0 010 2.82z"/><line x1="7" y1="7" x2="7.01" y2="7" stroke-width="2.5"/></svg>
+      <span data-i18n="nav.brands">品牌</span>
+    </a>
+    <a href="visit.html" class="bottom-nav-item is-active">
+      <svg class="bottom-nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+      <span data-i18n="nav.visit">地址</span>
+    </a>
+  </nav>
+
   <script src="js/i18n.js"></script>
   <script src="js/catalog.js"></script>
 </body>
