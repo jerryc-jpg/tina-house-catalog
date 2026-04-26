@@ -1,0 +1,226 @@
+[
+  {
+    "id": "mk-01",
+    "featured": true,
+    "category": "makeup",
+    "name": { "zh": "丝缎唇膏", "en": "Silk Finish Lipstick" },
+    "brand": { "zh": "Maison Rouge", "en": "Maison Rouge" },
+    "description": {
+      "zh": "经典正红色缎面膏状唇膏。",
+      "en": "Satin-finish cream lipstick in a classic true red."
+    },
+    "price": 28,
+    "image": "makeup-placeholder.svg"
+  },
+  {
+    "id": "mk-02",
+    "category": "makeup",
+    "name": { "zh": "轻透粉底液", "en": "Sheer Tint Foundation" },
+    "brand": { "zh": "Veil Beauty", "en": "Veil Beauty" },
+    "description": {
+      "zh": "轻盈可叠加，打造自然如第二层肌肤的妆感。",
+      "en": "Lightweight buildable foundation for a natural second-skin finish."
+    },
+    "price": 42,
+    "image": "makeup-placeholder.svg"
+  },
+  {
+    "id": "mk-03",
+    "category": "makeup",
+    "name": { "zh": "丝绒哑光睫毛膏", "en": "Velvet Matte Mascara" },
+    "brand": { "zh": "Parisian Noir", "en": "Parisian Noir" },
+    "description": {
+      "zh": "浓密型睫毛膏，浓黑持久不晕染。",
+      "en": "Volumizing mascara in a rich, smudge-resistant black."
+    },
+    "price": 24,
+    "image": "makeup-placeholder.svg"
+  },
+  {
+    "id": "mk-04",
+    "featured": true,
+    "category": "makeup",
+    "name": { "zh": "双色膏状腮红", "en": "Cream Blush Duo" },
+    "brand": { "zh": "Petal & Poppy", "en": "Petal & Poppy" },
+    "description": {
+      "zh": "易推开的膏状腮红，两款暖色自然过渡。",
+      "en": "Blendable cream blush in two complementary warm shades."
+    },
+    "price": 32,
+    "image": "makeup-placeholder.svg"
+  },
+  {
+    "id": "mk-05",
+    "category": "makeup",
+    "name": { "zh": "眼线笔", "en": "Kohl Eyeliner Pencil" },
+    "brand": { "zh": "Luna Cosmetics", "en": "Luna Cosmetics" },
+    "description": {
+      "zh": "持久柔晕，勾勒出柔和的眼部轮廓。",
+      "en": "Long-wearing, smudgeable kohl pencil for soft definition."
+    },
+    "price": 18,
+    "image": "makeup-placeholder.svg"
+  },
+  {
+    "id": "mk-06",
+    "category": "makeup",
+    "name": { "zh": "莹亮高光粉", "en": "Radiant Highlighter" },
+    "brand": { "zh": "Goldleaf", "en": "Goldleaf" },
+    "description": {
+      "zh": "香槟色调高光粉饼，带来柔润自然的光泽感。",
+      "en": "Champagne-toned powder highlighter for a soft luminous glow."
+    },
+    "price": null,
+    "image": "makeup-placeholder.svg"
+  },
+
+  {
+    "id": "sk-01",
+    "category": "skincare",
+    "name": { "zh": "玫瑰保湿爽肤水", "en": "Rose Hydrating Toner" },
+    "brand": { "zh": "Jardin", "en": "Jardin" },
+    "description": {
+      "zh": "无酒精配方，蕴含玫瑰纯露与玻尿酸。",
+      "en": "Alcohol-free toner with rosewater and hyaluronic acid."
+    },
+    "price": 22,
+    "image": "skincare-placeholder.svg"
+  },
+  {
+    "id": "sk-02",
+    "featured": true,
+    "category": "skincare",
+    "name": { "zh": "维生素 C 精华", "en": "Vitamin C Serum" },
+    "brand": { "zh": "Sola Skin", "en": "Sola Skin" },
+    "description": {
+      "zh": "10% 维 C 亮肤精华，改善暗沉，均匀肤色。",
+      "en": "Brightening 10% vitamin C serum for even, radiant tone."
+    },
+    "price": 48,
+    "image": "skincare-placeholder.svg"
+  },
+  {
+    "id": "sk-03",
+    "category": "skincare",
+    "name": { "zh": "神经酰胺晚霜", "en": "Ceramide Night Cream" },
+    "brand": { "zh": "Nocturne", "en": "Nocturne" },
+    "description": {
+      "zh": "丰润晚霜，夜间修护并加固肌肤屏障。",
+      "en": "Rich overnight cream that repairs and reinforces the skin barrier."
+    },
+    "price": 54,
+    "image": "skincare-placeholder.svg"
+  },
+  {
+    "id": "sk-04",
+    "featured": true,
+    "category": "skincare",
+    "name": { "zh": "温和洁面慕斯", "en": "Gentle Foaming Cleanser" },
+    "brand": { "zh": "Clair", "en": "Clair" },
+    "description": {
+      "zh": "日常使用，无香料，适合各种肤质。",
+      "en": "Daily fragrance-free cleanser for all skin types."
+    },
+    "price": 20,
+    "image": "skincare-placeholder.svg"
+  },
+  {
+    "id": "sk-05",
+    "category": "skincare",
+    "name": { "zh": "矿物净透面膜", "en": "Clay Detox Mask" },
+    "brand": { "zh": "Terra", "en": "Terra" },
+    "description": {
+      "zh": "高岭土与膨润土周护面膜，深层清洁并细致毛孔。",
+      "en": "Kaolin and bentonite weekly mask to clarify and refine pores."
+    },
+    "price": 26,
+    "image": "skincare-placeholder.svg"
+  },
+  {
+    "id": "sk-06",
+    "category": "skincare",
+    "name": { "zh": "SPF 30 物理防晒霜", "en": "SPF 30 Mineral Sunscreen" },
+    "brand": { "zh": "Haven", "en": "Haven" },
+    "description": {
+      "zh": "氧化锌配方日常防晒，轻盈不油腻。",
+      "en": "Zinc-based daily sunscreen with a weightless, non-greasy finish."
+    },
+    "price": null,
+    "image": "skincare-placeholder.svg"
+  },
+
+  {
+    "id": "hc-01",
+    "featured": true,
+    "category": "haircare",
+    "name": { "zh": "丰润保湿洗发水", "en": "Moisture-Rich Shampoo" },
+    "brand": { "zh": "Fleur", "en": "Fleur" },
+    "description": {
+      "zh": "无硫酸盐配方，专为干燥发质设计。",
+      "en": "Sulfate-free shampoo formulated for dry, thirsty hair."
+    },
+    "price": 22,
+    "image": "haircare-placeholder.svg"
+  },
+  {
+    "id": "hc-02",
+    "category": "haircare",
+    "name": { "zh": "深层修护发膜", "en": "Deep Conditioning Mask" },
+    "brand": { "zh": "Fleur", "en": "Fleur" },
+    "description": {
+      "zh": "每周一次的修护疗程，令发丝更柔顺强韧。",
+      "en": "Weekly repair treatment for softer, stronger strands."
+    },
+    "price": 28,
+    "image": "haircare-placeholder.svg"
+  },
+  {
+    "id": "hc-03",
+    "featured": true,
+    "category": "haircare",
+    "name": { "zh": "摩洛哥坚果油", "en": "Argan Hair Oil" },
+    "brand": { "zh": "Atlas", "en": "Atlas" },
+    "description": {
+      "zh": "轻盈定型精油，抚平毛躁并增添光泽。",
+      "en": "Lightweight finishing oil that tames flyaways and adds shine."
+    },
+    "price": 34,
+    "image": "haircare-placeholder.svg"
+  },
+  {
+    "id": "hc-04",
+    "category": "haircare",
+    "name": { "zh": "卷发定型乳", "en": "Curl Defining Cream" },
+    "brand": { "zh": "Coil & Co.", "en": "Coil & Co." },
+    "description": {
+      "zh": "抚平毛躁的造型乳，打造柔软有型的卷度。",
+      "en": "Frizz-smoothing styling cream for soft, defined curls."
+    },
+    "price": 24,
+    "image": "haircare-placeholder.svg"
+  },
+  {
+    "id": "hc-05",
+    "category": "haircare",
+    "name": { "zh": "免洗干发粉", "en": "Dry Shampoo Powder" },
+    "brand": { "zh": "Featherlight", "en": "Featherlight" },
+    "description": {
+      "zh": "蓬松米粉，洗发间隙焕新发根。",
+      "en": "Volumizing rice powder that refreshes roots between washes."
+    },
+    "price": 18,
+    "image": "haircare-placeholder.svg"
+  },
+  {
+    "id": "hc-06",
+    "category": "haircare",
+    "name": { "zh": "头皮清爽液", "en": "Scalp Clarifying Tonic" },
+    "brand": { "zh": "Root", "en": "Root" },
+    "description": {
+      "zh": "每周一次的头皮护理液，清爽舒缓、呵护健康生长。",
+      "en": "Weekly tonic to reset the scalp and support healthy growth."
+    },
+    "price": null,
+    "image": "haircare-placeholder.svg"
+  }
+]

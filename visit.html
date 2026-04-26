@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="zh-Hans">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title data-i18n="title.visit">地址 — Tina House</title>
+  <meta name="description" content="Tina House 的地址、营业时间、停车与联系电话。">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Inter:wght@400;500&family=Noto+Sans+SC:wght@400;500&family=Noto+Serif+SC:wght@500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-inner">
+      <a href="index.html" class="logo">Tina House</a>
+      <nav id="site-nav" class="site-nav" aria-label="Primary">
+        <a href="index.html" data-i18n="nav.home">首页</a>
+        <a href="makeup.html" data-i18n="nav.makeup">彩妆</a>
+        <a href="skincare.html" data-i18n="nav.skincare">护肤</a>
+        <a href="haircare.html" data-i18n="nav.haircare">护发</a>
+        <a href="brands.html" data-i18n="nav.brands">品牌</a>
+        <a href="visit.html" data-i18n="nav.visit">地址</a>
+      </nav>
+      <div class="header-actions">
+        <button class="lang-toggle" type="button" data-lang-toggle data-i18n-aria="toggle.aria" aria-label="切换到英文">
+          <span data-i18n="toggle.switch_to">EN</span>
+        </button>
+        <button class="nav-toggle" type="button" data-i18n-aria="nav.toggle_aria" aria-label="切换菜单" aria-expanded="false" aria-controls="site-nav">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-header">
+      <div class="container">
+        <h1 data-i18n="visit.heading">到店</h1>
+        <p class="tagline" data-i18n="visit.tagline">欢迎到店里看看。</p>
+      </div>
+    </section>
+
+    <section class="content-section">
+      <ul class="info-list">
+        <li>
+          <span class="label" data-i18n="visit.label_address">地址</span>
+          <a href="https://www.google.com/maps/search/?api=1&amp;query=41-40+Kissena+Boulevard%2C+Flushing%2C+NY+11355" target="_blank" rel="noopener" data-i18n="footer.address">41-40 Kissena Boulevard, Flushing, NY 11355</a>
+        </li>
+        <li>
+          <span class="label" data-i18n="visit.label_phone">电话</span>
+          <a href="tel:+16468241388" data-i18n="footer.phone">(646) 824-1388</a>
+        </li>
+      </ul>
+
+      <h2 data-i18n="visit.h_hours">营业时间</h2>
+      <!-- EDIT HOURS: day labels and time strings live in js/i18n.js
+           under visit.days.* and visit.hours.* keys. -->
+      <table class="hours-table">
+        <tbody>
+          <tr><td data-i18n="visit.days.mon">周一</td><td data-i18n="visit.hours.weekday">上午10点 – 晚上7点</td></tr>
+          <tr><td data-i18n="visit.days.tue">周二</td><td data-i18n="visit.hours.weekday">上午10点 – 晚上7点</td></tr>
+          <tr><td data-i18n="visit.days.wed">周三</td><td data-i18n="visit.hours.weekday">上午10点 – 晚上7点</td></tr>
+          <tr><td data-i18n="visit.days.thu">周四</td><td data-i18n="visit.hours.weekday">上午10点 – 晚上7点</td></tr>
+          <tr><td data-i18n="visit.days.fri">周五</td><td data-i18n="visit.hours.weekday">上午10点 – 晚上7点</td></tr>
+          <tr><td data-i18n="visit.days.sat">周六</td><td data-i18n="visit.hours.weekday">上午10点 – 晚上7点</td></tr>
+          <tr><td data-i18n="visit.days.sun">周日</td><td data-i18n="visit.hours.weekday">上午10点 – 晚上7点</td></tr>
+        </tbody>
+      </table>
+
+      <h2 data-i18n="visit.h_map">地图导航</h2>
+      <!--
+        EDIT MAP:
+        Replace the iframe src below with your own Google Maps embed URL.
+        To get one: google.com/maps → search your address → Share → Embed a map
+        → copy the src="..." attribute from the HTML Google gives you.
+      -->
+      <div class="map-container">
+        <iframe
+          title="Store location map"
+          src="https://www.google.com/maps?q=41-40+Kissena+Boulevard%2C+Flushing%2C+NY+11355&amp;output=embed"
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+      </div>
+
+      <h2 data-i18n="visit.h_parking">停车</h2>
+      <p data-i18n="visit.p_parking">
+        店铺附近有路边停车位与公共停车场，步行几分钟即可到达。
+      </p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p class="logo">Tina House</p>
+      <p><a href="https://www.google.com/maps/search/?api=1&amp;query=41-40+Kissena+Boulevard%2C+Flushing%2C+NY+11355" target="_blank" rel="noopener" data-i18n="footer.address">41-40 Kissena Boulevard, Flushing, NY 11355</a></p>
+      <p><a href="tel:+16468241388" data-i18n="footer.phone">(646) 824-1388</a></p>
+    </div>
+  </footer>
+
+  <script src="js/i18n.js"></script>
+  <script src="js/catalog.js"></script>
+</body>
+</html>

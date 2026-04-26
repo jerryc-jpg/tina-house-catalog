@@ -1,0 +1,6 @@
+[
+  { "name": "Cle De Peau", "slug": "cle-de-peau", "logo": "brands/cle-de-peau.svg" },
+  { "name": "La Mer",      "slug": "la-mer",      "logo": "brands/la-mer.svg" },
+  { "name": "Sulwhasoo",   "slug": "sulwhasoo",   "logo": "brands/sulwhasoo.svg" },
+  { "name": "The Whoo",    "slug": "the-whoo",    "logo": "brands/the-whoo.svg" }
+]
