@@ -14,12 +14,13 @@
   window.I18N = {
     zh: {
       /* Navigation */
-      'nav.home':     '首页',
-      'nav.makeup':   '彩妆',
-      'nav.skincare': '护肤',
-      'nav.haircare': '护发',
-      'nav.brands':   '品牌',
-      'nav.visit':    '地址',
+      'nav.home':       '首页',
+      'nav.categories': '分类',
+      'nav.makeup':     '彩妆',
+      'nav.skincare':   '护肤',
+      'nav.haircare':   '护发',
+      'nav.brands':     '品牌',
+      'nav.visit':      '地址',
       'nav.toggle_aria': '切换菜单',
       'nav.primary_aria': '主导航',
 
@@ -84,12 +85,13 @@
 
     en: {
       /* Navigation */
-      'nav.home':     'Home',
-      'nav.makeup':   'Makeup',
-      'nav.skincare': 'Skincare',
-      'nav.haircare': 'Hair',
-      'nav.brands':   'Brands',
-      'nav.visit':    'Visit',
+      'nav.home':       'Home',
+      'nav.categories': 'Categories',
+      'nav.makeup':     'Makeup',
+      'nav.skincare':   'Skincare',
+      'nav.haircare':   'Hair',
+      'nav.brands':     'Brands',
+      'nav.visit':      'Visit',
       'nav.toggle_aria': 'Toggle menu',
       'nav.primary_aria': 'Primary',
 
