@@ -42,3 +42,14 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# next.js scaffold (unused — site is plain static HTML/CSS/JS)
+next.config.ts
+next.config.js
+postcss.config.mjs
+eslint.config.mjs
+tsconfig.json
+package.json
+package-lock.json
+/app/
+/public/
